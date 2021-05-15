@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  background-color: #1f6603;
+  font-family:fantasy;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#time {
+  font-size: 70px;
+  position:absolute;
+  top: 25%;
+  margin: 0 auto;
+  left: 0; right: 0;
+}
+
+.buttons {
+  position: absolute;
+  width: 100%;
+  bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.button {
+  width: 100px;
+  padding: 2% 2%;
+  font-size: 20px;
+  color:black;
+  background: rgb(124, 255, 107);
+cursor: pointer;
+}
+
+.button:hover {
+  width: 200px;
+  color:black;
+  background: rgb(185, 250, 176);
+}
